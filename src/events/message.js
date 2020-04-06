@@ -17,7 +17,7 @@ function handler (message, blacklistCache) {
     channel,
     user: author
   })
-  if (author.bot || !guild || blacklistCache.guilds.has(guild.id) || blacklistCache.users.has(author.id)) {
+  if (!guild || blacklistCache.guilds.has(guild.id) || blacklistCache.users.has(author.id)) {
     log.debug(`Ignored message. One or more conditions are true - author bot:${!!author.bot}, no guild:${!guild}, blacklisted guild:${blacklistCache.guilds.has(guild.id)}, blacklisted user: ${blacklistCache.users.has(author.id)}`)
     return
   }
