@@ -314,11 +314,11 @@
       "controlPanelLink": "Be sure to check out your control panel at {{url}} for easy feed management!",
       "description": "Arguments for commands are added after the command. For example: `{{prefix}}test simple`. Do not include `<` or `>` in the arguments.",
       "arguments": "Arguments",
-      "support": "\nSupport can be found at https://discord.gg/pudv7Rx",
+      "support": "\n ",
       "checkDM": "Check your direct messages!"
     },
     "invite": {
-      "text": "Invite with Role - <https://discordapp.com/oauth2/authorize?client_id={{id}}&scope=bot&permissions=19456>\n\nInvite without Role - <https://discordapp.com/oauth2/authorize?client_id={{id}}&scope=bot>"
+      "text": "Contact Admin"
     },
     "list": {
       "noFeeds": "There are no existing feeds.",
